@@ -1,0 +1,24 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.codeduck.app"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.codeduck.app"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "0.1.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+}
