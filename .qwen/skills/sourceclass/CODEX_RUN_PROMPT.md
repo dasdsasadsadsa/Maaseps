@@ -1,4 +1,4 @@
-# Qwen Coder Run Prompt
+# Codex Run Prompt
 
 Use the `sourceclass` skill.
 
