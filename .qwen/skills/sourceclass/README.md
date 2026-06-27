@@ -1,6 +1,6 @@
-# SourceClass Qwen Skill
+# SourceClass Codex Skill
 
-This folder contains the SourceClass Qwen Skill.
+This legacy folder contains a compatibility copy of the SourceClass Codex skill. The main Codex skill directory is `sourceclass/` at the repository root.
 
 SourceClass analyzes a local repository and generates product-facing documentation without modifying source code.
 
@@ -11,14 +11,12 @@ SourceClass analyzes a local repository and generates product-facing documentati
 Place this folder inside your project like this:
 
 ```txt
-.qwen/
-└─ skills/
-   └─ sourceclass/
-      ├─ SKILL.md
-      ├─ sourceclass.config.md
-      ├─ QWEN_CODER_RUN_PROMPT.md
-      ├─ project.md
-      └─ README.md
+sourceclass/
+├─ SKILL.md
+├─ sourceclass.config.md
+├─ CODEX_RUN_PROMPT.md
+├─ project.md
+└─ README.md
 ```
 
 ---
@@ -67,9 +65,9 @@ SourceClass does not:
 
 ## How To Use
 
-1. Copy the `.qwen/skills/sourceclass/` folder into the root of the repository you want to analyze.
+1. Use the root-level `sourceclass/` folder as the Codex skill directory.
 
-2. Open the repository with Qwen Coder / Qwen Code.
+2. Open the repository with Codex.
 
 3. Run the skill with a prompt like:
 
@@ -80,7 +78,7 @@ Use the sourceclass skill. Analyze this repository and execute the SourceClass M
 Or paste the full prompt from:
 
 ```txt
-.qwen/skills/sourceclass/QWEN_CODER_RUN_PROMPT.md
+sourceclass/CODEX_RUN_PROMPT.md
 ```
 
 4. Review the generated files.

@@ -2,7 +2,7 @@
 
 ## MVP Scope
 
-SourceClass MVP is a Qwen Skill for repository analysis and product documentation.
+SourceClass MVP is a Codex-ready skill for repository analysis and product documentation.
 
 The MVP output is:
 

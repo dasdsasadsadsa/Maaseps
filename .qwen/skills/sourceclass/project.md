@@ -1,6 +1,6 @@
 # SourceClass Project
 
-SourceClass is a Qwen Skill that turns a local code repository into product-facing documentation.
+SourceClass is a Codex-ready skill that turns a local code repository into product-facing documentation.
 
 It is designed for the moment when a developer has working code, but the project is still hard to understand, explain, or present.
 
