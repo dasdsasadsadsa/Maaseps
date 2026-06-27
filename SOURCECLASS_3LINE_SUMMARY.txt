@@ -1,0 +1,3 @@
+CodeDuck Alpha is a Flutter-based Android-first mobile workspace for understanding coding projects.
+It is for developers, students, and builders who want project navigation and developer-tool UI on a phone.
+Confidence: 84/100; biggest uncertainty is how much of the remote development workflow is implemented versus placeholder-only.
